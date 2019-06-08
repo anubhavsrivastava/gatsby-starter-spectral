@@ -55,7 +55,7 @@ class Layout extends Component {
             <div
               className={
                 isPreloaded
-                  ? 'landing main-body landing is-preload'
+                  ? 'landing main-body is-preload'
                   : 'landing main-body'
               }
             >
