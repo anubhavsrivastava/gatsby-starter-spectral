@@ -24,7 +24,7 @@
 		@if ($category == brands) {
 			font-family: 'Font Awesome 5 Brands';
 		}
-		@elseif ($category == solid) {
+		@else if ($category == solid) {
 			font-family: 'Font Awesome 5 Free';
 			font-weight: 900;
 		}
